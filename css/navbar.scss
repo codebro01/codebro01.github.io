@@ -1,0 +1,22 @@
+@import 'variables';
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(9, 10, 26);
+    height: 60px;
+    align-items: center;
+    color: $text-white;
+    font-family: $header-font;
+}
+
+.nav-container .nav-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.nav-container .nav-menu .nav-link a {
+    color: $text-white;
+    display: none;
+}

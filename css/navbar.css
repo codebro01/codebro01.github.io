@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600;700&family=Poppins:wght@500&display=swap");
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(9, 10, 26);
+  height: 60px;
+  align-items: center;
+  color: rgb(239, 238, 238);
+  font-family: "Kanit", sans-serif;
+}
+
+.nav-container .nav-menu {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+.nav-container .nav-menu .nav-link a {
+  color: rgb(239, 238, 238);
+  display: none;
+}/*# sourceMappingURL=navbar.css.map */

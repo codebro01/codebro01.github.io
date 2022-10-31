@@ -788,6 +788,7 @@ html {
 
 .main-content #resume .resume-container .resume-items .resume-section .resume-item p a {
   font-size: 0.7rem;
+  color: #a1a1a1cb
 }
 .main-content #resume .resume-container .resume-items .resume-section .resume-item::before {
   position: absolute;
